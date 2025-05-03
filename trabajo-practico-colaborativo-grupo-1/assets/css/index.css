@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/trabajo-practico-colaborativo-grupo-1/assets/imgs/marco.jpg);
+}
+
+.h1 {
+    text-align: center;
+}
+
+.nav-bar0 {
+    background-image: url(/trabajo-practico-colaborativo-grupo-1/assets/imgs/nav.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    text-align: center;
+
+}
+
+.nav-bar1 {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cajaTotal {
+    margin: 0;
+    padding: 0;
+    background-color: #045691;
+    width: auto;
+    height: auto;
+}
+
+
+.subCaja1 {
+    background-color: rgb(23, 82, 232);
+    height: 300px;
+    width: auto;
+}
+
+.cajaArtista1 {
+    background-color: white;
+    height: 300px;
+    width: 500px;
+}
+
+.subCaja2 {
+    background-color: yellow;
+    height: 300px;
+    width: auto;
+}
+
+.cajaArtista2 {
+    background-color: rgb(118, 252, 0);
+    height: 300px;
+    width: 500px;
+}
+
+.subCaja3 {
+    background-color: orange;
+    height: 300px;
+    width: auto;
+}
+
+.cajaArtista3 {
+    background-color: rgb(237, 10, 222);
+    height: 300px;
+    width: 500px;
+}
+
+.subCaja4 {
+    background-color: greenyellow;
+    height: 300px;
+    width: auto;
+    display: grid;
+    gap: 5px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cajaTresArtistas0 {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+}
+
+.cajaTresArtistas1 {
+    background-color: rgb(250, 229, 191);
+    height: 300px;
+    width: 400px;
+}
+
+.cajaTresArtistas2 {
+    background-color: rgb(247, 178, 60);
+    height: 300px;
+    width: 400px;
+}
+
