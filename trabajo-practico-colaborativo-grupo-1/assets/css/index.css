@@ -1,26 +1,43 @@
 body {
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/trabajo-practico-colaborativo-grupo-1/assets/imgs/marco.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(/trabajo-practico-colaborativo-grupo-1/assets/imgs/marco.jpg);
-}
-
-.h1 {
-    text-align: center;
-}
-
-.nav-bar0 {
-    background-image: url(/trabajo-practico-colaborativo-grupo-1/assets/imgs/nav.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
-    margin: 0;
-    text-align: center;
-
 }
+header{
+    background-color: #2c3639;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 15px;
+}
+h1{ 
+    color: #e3ebf2;
+    font-size: 3rem;
+    margin-top: auto;
+}
+.nav-bar0 ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin-top: auto;
+    justify-content: center;
+}
+.nav-bar0 li a{ 
+    text-decoration: none;
+    color: #e3ebf2;
+    background-color: #2c3639;
+    padding:  0.5rem 1rem;
+    border-radius: 20px;
+    transition: backround-color 0.3s;
+}
+.nav-bar0 li a:hover {
+    background-color:#ceb190;
+    color: #2c3639;
+    }
 
 .nav-bar1 {
     margin: 0;
@@ -32,58 +49,140 @@ body {
 }
 
 .cajaTotal {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 60px 50px 60px;
+    padding: 50px;
     background-color: #045691;
     width: auto;
     height: auto;
+    gap: 10px;
 }
 
+h2 {
+    color: #e3ebf2;
+/*     justify-content: ; */
+}
 
 .subCaja1 {
-    background-color: rgb(23, 82, 232);
-    height: 300px;
+    background-color: #CEB190;
+    height: auto;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+/*     padding: 25px 25px 0 25px; */
 }
 
 .cajaArtista1 {
-    background-color: white;
-    height: 300px;
-    width: 500px;
+    background-color: #5E3023;
+    height: fit-content;
+    width: auto;
+    border-radius: 20px;
+    margin: 20px 0 20px 20px;
+    padding: 0 8px 0  8px;
+}
+
+.artistaNombre1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;  
+}
+
+img {
+    height: 250px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto 15px auto;
+
+/*     border-color: black;
+    border-style: solid; */
+}
+
+.infoArtista1 {
+    padding: 25px 10px 20px 10px;
+/*     background-color: white; */  /*Lo dejo para cuando necesite orientarme*/
+    margin: 0 15px 0 0;
+    text-align: justify;
 }
 
 .subCaja2 {
-    background-color: yellow;
-    height: 300px;
+    background-color: #CEB190;
+    height: auto;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+/*     padding: 25px 25px 0 25px; */
 }
 
 .cajaArtista2 {
-    background-color: rgb(118, 252, 0);
-    height: 300px;
-    width: 500px;
+    background-color: #5E3023;
+    height: fit-content;
+    width: auto;
+    border-radius: 20px;
+    margin: 20px 20px 20px 0;
+    padding: 0 8px 0  8px;
+}
+
+.artistaNombre2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;  
+}
+
+.infoArtista2 {
+    padding: 25px 10px 20px 10px;
+/*     background-color: white; */  /*Lo dejo para cuando necesite orientarme*/
+    margin: 0 15px 0 15px;
+    text-align: justify;
 }
 
 .subCaja3 {
-    background-color: orange;
-    height: 300px;
+    background-color: #CEB190;
+    height: auto;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+/*     padding: 25px 25px 0 25px; */
 }
 
 .cajaArtista3 {
-    background-color: rgb(237, 10, 222);
-    height: 300px;
-    width: 500px;
+    background-color: #5E3023;
+    height: fit-content;
+    width: auto;
+    border-radius: 20px;
+    margin: 20px 0 20px 20px;
+    padding: 0 8px 0  8px;
+}
+
+.artistaNombre3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;  
+}
+
+.infoArtista3 {
+    padding: 25px 10px 20px 10px;
+/*     background-color: white; */  /*Lo dejo para cuando necesite orientarme*/
+    margin: 0 15px 0 0;
+    text-align: justify;
 }
 
 .subCaja4 {
     background-color: greenyellow;
     height: 300px;
     width: auto;
-    display: grid;
+    display: flex;
     gap: 5px;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cajaTresArtistas0 {
