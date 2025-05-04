@@ -13,11 +13,18 @@ header{
     padding: 1rem;
     box-shadow: 0 0 15px;
 }
+
 h1{ 
     color: #e3ebf2;
     font-size: 3rem;
     margin-top: auto;
 }
+
+h2 {
+    color: #e3ebf2;
+/*     justify-content: ; */
+}
+
 .nav-bar0 ul{
     list-style: none;
     display: flex;
@@ -53,16 +60,13 @@ h1{
     flex-direction: column;
     margin: 15px 60px 50px 60px;
     padding: 50px;
-    background-color: #045691;
+/*     background-color: #045691; */
     width: auto;
     height: auto;
     gap: 10px;
 }
 
-h2 {
-    color: #e3ebf2;
-/*     justify-content: ; */
-}
+
 
 .subCaja1 {
     background-color: #CEB190;
@@ -177,7 +181,7 @@ img {
 }
 
 .subCaja4 {
-    background-color: greenyellow;
+/*     background-color: greenyellow; */
     height: 300px;
     width: auto;
     display: flex;
@@ -185,21 +189,96 @@ img {
     align-items: center;
 }
 
-.cajaTresArtistas0 {
-    background-color: white;
+.cajaTresArtistas1 {
+    background-color: #CEB190;
     height: 300px;
     width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
 }
 
-.cajaTresArtistas1 {
-    background-color: rgb(250, 229, 191);
-    height: 300px;
-    width: 400px;
+.fondoMillais {
+    position: absolute;
+    width: 85%;
+    height: auto;
+    z-index: 1;
+    margin: auto;
+    border-radius: 100px;
 }
+
+.millaisRedondeado {
+/*     border-radius: 50px; */
+    height: auto;
+    width: 65px;
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.0);
+/*     border-color: white; */ /* sirve de guía */
+    border-style: solid;
+    margin: 10px;
+}
+
 
 .cajaTresArtistas2 {
-    background-color: rgb(247, 178, 60);
+    background-color: #CEB190;
     height: 300px;
     width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fondoBosco {
+    position: absolute;
+    width: 85%;
+    height: auto;
+    z-index: 1;
+    margin: auto;
+    border-radius: 60px;
+}
+
+.boscoRedondeado {
+    height: auto;
+    width: 75px;
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.0);
+    border-style: solid;
+    margin: 10px;
+}
+
+.cajaTresArtistas3 {
+    background-color: #CEB190;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.fondoLeonardo {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    margin: auto;
+}
+
+.leonardoRedondeado {
+/*     border-radius: 50px; */
+    height: auto;
+    width: 65px;
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.0);
+/*     border-color: white; */ /* sirve de guía */
+    border-style: solid;
+    margin: 10px;
 }
 
