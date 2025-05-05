@@ -283,7 +283,7 @@ img {
 .fondoMillais, 
 .fondoBosco, 
 .fondoLeonardo {
-    filter: blur(3px);
+    filter: blur(10px);
     transition: filter 0.3s ease;
 }
 
@@ -292,3 +292,9 @@ img {
 .cajaTresArtistas3:hover .fondoLeonardo {
     filter: blur(0);
 }
+
+/* .leonardoRedondeado a {
+    border: none !important;
+    outline: none !important;
+}
+Quita el borde del link pero queda mejor con creo yo */
